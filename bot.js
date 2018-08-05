@@ -5,7 +5,7 @@ bot.login('NDc1Mzk1NDY5NzI4NTQ2ODI2.DkeaMQ.Ywy15imWG37sSJoFvMp2Prt61z8')
 
 bot.on("ready", () => {
   console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-- Geladen --");
-  bot.user.setStatus('dnd', '') 
+  bot.user.setStatus('dnd', '')
 });
 
 bot.on('voiceStateUpdate', (oldMember, newMember) => {
@@ -37,6 +37,8 @@ bot.on('voiceStateUpdate', (oldMember, newMember) => {
         bot.users.get("461994882182021130").send("**🚨 " + newMember.user.username + " hat den Warteraum betreten! 🚨**");
         //trox
         bot.users.get("370592640330235905").send("**🚨 " + newMember.user.username + " hat den Warteraum betreten! 🚨**");
+        //me
+        bot.users.get("252823336445280257").send("**🚨 " + newMember.user.username + " hat den Warteraum betreten! 🚨**");
 
       }
   }
